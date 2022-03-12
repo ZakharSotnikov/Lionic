@@ -159,7 +159,6 @@ body {
 
 .hero-title {
   margin: 0;
-  margin-bottom: 25px;
   font-weight: 300;
   font-size: 40px;
   line-height: 130%;
@@ -194,7 +193,6 @@ body {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 14px 17px;
-  padding-left: 25px;
 
 }
 
@@ -225,9 +223,6 @@ body {
   margin-right: 30px;
 }
 
-.services-item-icon {
-  margin-bottom: 25px;
-}
 
 .services-item-title {
   margin: 0;
@@ -236,6 +231,7 @@ body {
   font-size: 20px;
   line-height: 130%;
   color: #1C1C1C;
+  padding-top: 29px;
 }
 
 .services-item-descr {
@@ -361,11 +357,20 @@ body {
   font-style: normal;
 }
 
+.contacts-title {
+  margin-bottom: 155px;
+}
+
 .contacts-item {
   flex-direction: column;
   width: 370px;
-  outline: 1px solid red;
 }
+
+.contacts-icon {
+  background-repeat: no-repeat;
+  color: #1C1C1C;
+}
+
 
 .contacts-item:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -373,10 +378,24 @@ body {
 
 .contacts-item-caption {
   margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  padding-top: 25px;
 }
+
 
 .contacts-item-text {
   margin: 0;
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
+}
+
+.contacts-item-link {
+  font-size: 14px;
+  line-height: 180%;
+  color: #787878;
 }
 
 .contacts-item-link:not(:last-child) {
@@ -398,9 +417,7 @@ body {
   align-items: center;
 }
 
-.footer-logo {
-  margin-right: 25px;
-}
+.footer-logo {}
 
 .footer-item:not(:last-child) {
   margin-right: 28px;
