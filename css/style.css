@@ -193,7 +193,7 @@ body {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 14px 17px;
-
+  padding-left: 20px;
 }
 
 /* services */
@@ -365,6 +365,7 @@ body {
 /* contacts */
 .contacts {
   border-bottom: 1px solid #DADADA;
+  margin-bottom: 87px;
 }
 
 .contacts-address {
@@ -422,6 +423,106 @@ body {
   color: #787878;
 }
 
+/* join us */
+.join-us {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.join-us-title {
+  text-align: center;
+}
+
+.join-us-descr {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.form-input {
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 16px 28px;
+  width: 251px;
+  height: 60px;
+}
+
+.form-select {
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 16px 28px;
+  width: 251px;
+  height: 60px;
+}
+
+.form-textarea {
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 20px;
+  resize: none;
+  padding: 16px 28px;
+  width: 100%;
+  height: 100%;
+}
+
+.form-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-left {
+  width: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+
+
+.form-right {
+  width: 49%;
+}
+
+.form-bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-btn {
+  border-radius: 50px;
+  min-width: 230px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 9px;
+}
+
+.form-check {
+  font-size: 12px;
+  line-height: 16px;
+  color: #787878;
+  margin-bottom: 122px-;
+}
+
+.form-check input {
+  margin-right: 8px;
+}
+
+.form-check a {
+  color: #3172B9;
+  border-bottom: 1px solid #3172B9;
+}
+
 /* footer */
 
 .footer {
@@ -474,7 +575,7 @@ body {
 }
 
 .footer-nav {
-  margin-right: 50px`;
+  margin-right: 50px;
 }
 
 .social-link-twitter {
